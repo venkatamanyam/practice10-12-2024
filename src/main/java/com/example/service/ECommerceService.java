@@ -33,6 +33,7 @@ public class ECommerceService {
     	
     	System.out.println("Entered into save customer");
     	System.out.println("Entered into save customer2");
+    	System.out.println("Entered into save customer3");
     	CustomerData customer=new CustomerData();
     	
     	BeanUtils.copyProperties(customerDTO, customer);
