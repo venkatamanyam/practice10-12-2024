@@ -30,6 +30,8 @@ public class ECommerceService {
         // For Bidirectional Relationship
     public String saveCustomer(CustomerDataDTO customerDTO) {
     	
+    	
+    	System.out.println("Entered into save customer");
     	CustomerData customer=new CustomerData();
     	
     	BeanUtils.copyProperties(customerDTO, customer);
